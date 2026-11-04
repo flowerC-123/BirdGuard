@@ -1,0 +1,12 @@
+build/
+__pycache__/
+*.pyc
+*.wlf
+*.vcd
+*.log
+*.logw
+work/
+transcript
+.vs/
+.vscode/
+.work/

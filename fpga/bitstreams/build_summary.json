@@ -1,0 +1,46 @@
+{
+  "project": "BirdGuard",
+  "device": "PH1P35MDG324",
+  "profiles": {
+    "single": {
+      "file": "birdguard_single.bit",
+      "sha256": "c90ded952f0729ee8770da337649f21921425dabf2e9eb6245e7bcc48d159bb2",
+      "compressed_file": "birdguard_single_compress.bit",
+      "compressed_sha256": "725cbd26dcd975473deb6be2a812c08c863b31fb0b3085ffd59803187296cf24",
+      "design_input_count": 260,
+      "design_inputs_sha256": "aa6a230ece8938870b8e216bc3ede00b02c934928fb743f38a5294efd80f8629",
+      "synthesis": "passed",
+      "routed_timing": "passed",
+      "timing_ns": {
+        "SWNS": 0.103,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "sta_coverage_percent": 95.43,
+      "clock_crossing_limit_ns": 13.0
+    },
+    "pipelined": {
+      "file": "birdguard_pipelined.bit",
+      "sha256": "aebdb99bdeede5f2b2989b6b109c46ce999a84e8c72d09d8fd3a3d179007e5a7",
+      "compressed_file": "birdguard_pipelined_compress.bit",
+      "compressed_sha256": "e6bd982588f7b2f88f4a3a24c4a3da68b58799fc06b7cba20552dbe2b4407d11",
+      "design_input_count": 261,
+      "design_inputs_sha256": "57582f249cb9b0c5dff39003645a90a0ccf64e0191c73ada968ba621d5629297",
+      "synthesis": "passed",
+      "routed_timing": "passed",
+      "timing_ns": {
+        "SWNS": 0.14,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "sta_coverage_percent": 95.53,
+      "clock_crossing_limit_ns": 13.0
+    }
+  },
+  "simulations": {
+    "passed_cases": 8,
+    "verified_image_packets": 5
+  }
+}
